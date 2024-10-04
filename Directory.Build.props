@@ -1,0 +1,30 @@
+<Project>
+
+    <PropertyGroup Label="Build">
+        <!-- <AnalysisLevel>latest</AnalysisLevel> -->
+        <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+        <!-- <EnableNETAnalyzers>true</EnableNETAnalyzers> -->
+        <!-- <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild> -->
+        <ImplicitUsings>disable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <NeutralLanguage>en</NeutralLanguage>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Project">
+        <Authors>olederle</Authors>
+        <PackageProjectUrl>https://github.com/olederle/car-reader</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/olederle/card-reader.git</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" />
+    </ItemGroup>
+
+</Project>
